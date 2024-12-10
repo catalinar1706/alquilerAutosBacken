@@ -10,7 +10,7 @@ const clientesR = require('./routes/clienteroutes');
 // Ahora puedes acceder a las variables de entorno
 
 // Definir el puerto con un valor predeterminado
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 6001;
 
 // Middleware para analizar JSON
 app.use(express.json());
